@@ -1,13 +1,16 @@
 import React from 'react';
 
 const HelloStudent =  props  => {
+    let name = props.name;
+    let unit = props.unit;
+
     return (
         <p>
             Hello
-            &nbsp;{ props.name },
+            &nbsp;{ name },
             welcome to TECHCareers and its React unit!
             Their favourite unit is:&nbsp;
-            { props.unit }
+            { unit }
         </p>
     )
 }
